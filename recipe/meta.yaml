@@ -1,5 +1,5 @@
 {% set name = "hstcal" %}
-{% set version = "2.7.0" %}
+{% set version = "2.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/spacetelescope/hstcal/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 2d9169cc51665f4ec147ccc5d83ec8e683adacfb575031914185ba68628047b9
+  sha256: 483a0d329e27db49277367375e7ef0b380bf541323793df315bd0177c6beeb77
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Calibration for HST/WFC3, HST/ACS, and HST/STIS'
+  summary: Calibration for HST/WFC3, HST/ACS, and HST/STIS
   doc_url: https://hstcal.readthedocs.io/
   dev_url: https://github.com/spacetelescope/hstcal
 
