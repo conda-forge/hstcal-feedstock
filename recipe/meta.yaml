@@ -1,5 +1,5 @@
 {% set name = "hstcal" %}
-{% set version = "2.7.1" %}
+{% set version = "2.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/spacetelescope/hstcal/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 483a0d329e27db49277367375e7ef0b380bf541323793df315bd0177c6beeb77
+  sha256: b6e4643aed7fcdcc82345038d5e518b6d36f6d9911812e1257906492618ee3e9
 
 build:
   number: 0
