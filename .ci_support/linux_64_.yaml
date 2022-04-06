@@ -3,7 +3,7 @@ bzip2:
 c_compiler:
 - gcc
 c_compiler_version:
-- '9'
+- '10'
 cdt_name:
 - cos6
 cfitsio:
@@ -17,7 +17,7 @@ docker_image:
 fortran_compiler:
 - gfortran
 fortran_compiler_version:
-- '9'
+- '10'
 libcurl:
 - '7'
 pin_run_as_build:
