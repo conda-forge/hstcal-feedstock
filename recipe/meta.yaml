@@ -24,7 +24,7 @@ requirements:
     - libcurl  # [linux]
     - cfitsio
     - llvm-openmp  # [osx]
-    - libgcc
+    - libgcc  # [osx64]
     - _openmp_mutex  # [linux]
 
 test:
