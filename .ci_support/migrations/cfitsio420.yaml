@@ -3,5 +3,5 @@ __migrator:
   kind: version
   migration_number: 1
 cfitsio:
-- 4.1.0
-migrator_ts: 1647632980.4065666
+- 4.2.0
+migrator_ts: 1668765504.9452357
