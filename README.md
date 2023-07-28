@@ -1,11 +1,11 @@
-About hstcal
-============
+About hstcal-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hstcal-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/spacetelescope/hstcal
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hstcal-feedstock/blob/main/LICENSE.txt)
 
 Summary: Calibration for HST/WFC3, HST/ACS, and HST/STIS
 
