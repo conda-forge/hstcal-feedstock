@@ -5,11 +5,15 @@ c_compiler:
 c_compiler_version:
 - '16'
 cfitsio:
-- 4.3.1
+- 4.4.0
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+cxx_compiler:
+- clangxx
+cxx_compiler_version:
+- '16'
 fortran_compiler:
 - gfortran
 fortran_compiler_version:
@@ -22,4 +26,5 @@ target_platform:
 - osx-64
 zip_keys:
 - - c_compiler_version
+  - cxx_compiler_version
   - fortran_compiler_version
