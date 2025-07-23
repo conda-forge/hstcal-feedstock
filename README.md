@@ -181,7 +181,6 @@ Feedstock Maintainers
 =====================
 
 * [@jhunkeler](https://github.com/jhunkeler/)
-* [@mdlpstsci](https://github.com/mdlpstsci/)
 * [@nden](https://github.com/nden/)
 * [@pllim](https://github.com/pllim/)
 
