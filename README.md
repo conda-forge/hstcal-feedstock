@@ -180,12 +180,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgannon2](https://github.com/bgannon2/)
 * [@jhunkeler](https://github.com/jhunkeler/)
 * [@mdlpstsci](https://github.com/mdlpstsci/)
 * [@nden](https://github.com/nden/)
-* [@stsci-hack](https://github.com/stsci-hack/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@pllim](https://github.com/pllim/)
 
