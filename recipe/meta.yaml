@@ -10,13 +10,17 @@ source:
   sha256: e4163d8deebd0aaafc262b7e21e950befbbfb7a6b47caf65261faeeb80fbea0d
 
 build:
-  number: 0
+  number: 3
   skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
+    - {{ compiler('cxx') }}
     - {{ compiler('fortran') }}
+    - cmake
+    - make
     - python
     - pkg-config
   host:
@@ -43,7 +47,6 @@ about:
 extra:
   recipe-maintainers:
     - jhunkeler
-    - bgannon2
-    - stsci-hack
-    - mdlpstsci
+    - pllim
     - nden
+    - s-goldman

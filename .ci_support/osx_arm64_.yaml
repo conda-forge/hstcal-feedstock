@@ -6,12 +6,20 @@ c_compiler:
 - clang
 c_compiler_version:
 - '19'
+c_stdlib:
+- macosx_deployment_target
+c_stdlib_version:
+- '11.0'
 cfitsio:
-- 4.6.2
+- 4.6.3
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+cxx_compiler:
+- clangxx
+cxx_compiler_version:
+- '19'
 fortran_compiler:
 - gfortran
 fortran_compiler_version:
@@ -24,4 +32,5 @@ target_platform:
 - osx-arm64
 zip_keys:
 - - c_compiler_version
+  - cxx_compiler_version
   - fortran_compiler_version
