@@ -183,4 +183,5 @@ Feedstock Maintainers
 * [@jhunkeler](https://github.com/jhunkeler/)
 * [@nden](https://github.com/nden/)
 * [@pllim](https://github.com/pllim/)
+* [@s-goldman](https://github.com/s-goldman/)
 
