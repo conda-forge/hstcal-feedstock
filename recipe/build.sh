@@ -8,6 +8,7 @@ if [[ $target_platform == osx-* ]]; then
     export FFLAGS="$FFLAGS -isysroot $CONDA_BUILD_SYSROOT"
 fi
 
+patch -p0 < ${RECIPE_DIR}/no_sizeof.patch
 ./waf configure --prefix=${PREFIX} --release-with-symbols
 ./waf build
 ./waf install
