@@ -8,12 +8,8 @@ if [[ $target_platform == osx-* ]]; then
     export FFLAGS="$FFLAGS -isysroot $CONDA_BUILD_SYSROOT"
 fi
 
-mkdir -p build
-cd build
-cmake .. \
-    -DCMAKE_INSTALL_PREFIX=${PREFIX} \
-    -DCMAKE_BUILD_TYPE=RelWithDebInfo
+patch -p0 < ${RECIPE_DIR}/no_sizeof.patch
+./waf configure --prefix=${PREFIX} --release-with-symbols
+./waf build
+./waf install
 
-make
-
-make install

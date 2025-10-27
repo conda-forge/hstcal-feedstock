@@ -1,0 +1,12 @@
+--- wscript	2025-10-24 15:51:22.178604943 -0400
++++ wscript	2025-10-24 15:57:36.833154002 -0400
+@@ -353,7 +353,8 @@
+ 
+     _setup_openmp(conf)
+ 
+-    _determine_sizeof_int(conf)
++    #_determine_sizeof_int(conf)
++    conf.define('SIZEOF_INT', 8)
+ 
+     if conf.check_cc(cflags='-std=gnu99'):
+         conf.env.append_value('CFLAGS', '-std=gnu99')
