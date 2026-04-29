@@ -33,8 +33,9 @@ requirements:
 test:
   commands:
     - calacs.e --gitinfo
-    - calwf3.e --gitinfo
-    - cs0.e --gitinfo
+    - calacs.e --version
+    - calwf3.e --version
+    - cs0.e --version
 
 about:
   home: https://github.com/spacetelescope/hstcal
