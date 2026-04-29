@@ -10,7 +10,7 @@ source:
   sha256: 7432a32cb08a98764ee7b0d9feadd6b3c323288f276068ca230308c45ab16a74
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -21,8 +21,6 @@ requirements:
     - {{ compiler('fortran') }}
     - cmake
     - make
-    - python  # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - pkg-config
   host:
     - bzip2  # [linux]
@@ -35,6 +33,9 @@ requirements:
 test:
   commands:
     - calacs.e --gitinfo
+    - calacs.e --version
+    - calwf3.e --version
+    - cs0.e --version
 
 about:
   home: https://github.com/spacetelescope/hstcal
@@ -42,12 +43,11 @@ about:
   license_family: BSD
   license_file: LICENSE.txt
   summary: Calibration for HST/WFC3, HST/ACS, and HST/STIS
-  doc_url: https://hstcal.readthedocs.io/
+  doc_url: https://github.com/spacetelescope/hstcal/blob/main/README.md
   dev_url: https://github.com/spacetelescope/hstcal
 
 extra:
   recipe-maintainers:
     - jhunkeler
     - pllim
-    - nden
     - s-goldman
