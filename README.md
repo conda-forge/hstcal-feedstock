@@ -11,7 +11,7 @@ Summary: Calibration for HST/WFC3, HST/ACS, and HST/STIS
 
 Development: https://github.com/spacetelescope/hstcal
 
-Documentation: https://hstcal.readthedocs.io/
+Documentation: https://github.com/spacetelescope/hstcal/blob/main/README.md
 
 Current build status
 ====================
@@ -181,7 +181,6 @@ Feedstock Maintainers
 =====================
 
 * [@jhunkeler](https://github.com/jhunkeler/)
-* [@nden](https://github.com/nden/)
 * [@pllim](https://github.com/pllim/)
 * [@s-goldman](https://github.com/s-goldman/)
 
