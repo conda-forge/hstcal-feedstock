@@ -10,7 +10,7 @@ source:
   sha256: 377e1029df57e4eb1981f543378149422ae7e7a98fffa9b6a4f5fa7d47de6b99
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('fortran') }}
     - cmake
     - make
-    - pkg-config
+    - pkgconf
   host:
     - bzip2  # [linux]
     - libcurl  # [linux]
